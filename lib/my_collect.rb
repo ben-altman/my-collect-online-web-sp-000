@@ -5,6 +5,7 @@ def my_collect(array)
   nuarray = []
   while x < array.length
     nuarray << yield(array[x])
+    binding.pry
     x += 1
   end
   nuarray
