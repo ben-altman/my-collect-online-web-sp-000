@@ -1,3 +1,5 @@
+require 'pry'
+
 def my_collect(array)
   x = 0
   nuarray = []
@@ -8,5 +10,3 @@ def my_collect(array)
   nuarray
 end
 
-#my_collect() do |x|
-#end
