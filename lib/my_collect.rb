@@ -6,5 +6,5 @@ def my_collect(array)
   end
 end
 
-my_collect(array) do |x|
+my_collect do |x|
 end
